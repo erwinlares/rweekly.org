@@ -14,8 +14,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 ### Highlight
 
-
-
++ [A first containerization workflow with containr](https://erwinlares.github.io/containr/articles/containr-workflow.html)
+The goal of `containr` is to automate containerizing R projects. `generate_dockerfile()` analyzes an `renv.lock` file to intelligently resolve R package dependencies and their system library requirements, then generates a ready-to-use Dockerfile. `build_image()` builds that Dockerfile into a container image using Docker or Podman all within an R session.
 ### Insights
 
 
